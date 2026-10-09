@@ -377,3 +377,7 @@ h1,h2,h3{
 }
 
 .hidden{display:none !important;}
+
+@media (max-width:768px){
+  .hero-video{height:auto;min-height:0;aspect-ratio:16/9;margin-top:76px;}
+}
