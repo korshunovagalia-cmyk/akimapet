@@ -25,12 +25,8 @@
     <div class="header-actions">
       <a class="icon-btn wa" href="https://wa.me/79169120908" target="_blank" rel="noopener">
         <img class="btn-icon" src="assets/web/icon_whatsapp.png" alt="">
-        <span class="label">WhatsApp</span>
+        <span class="label">Написать нам</span>
       </a>
-      <button class="icon-btn solid cart-btn" data-open-cart>
-        <span class="label">Корзина</span>
-        <span class="cart-count">0</span>
-      </button>
       <button class="burger" id="burger" aria-label="Меню">
         <span></span><span></span><span></span>
       </button>
@@ -142,7 +138,7 @@
   <div class="wrap">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a href="index.html#top" class="logo"><img src="assets/web/logo.svg" alt="AKIMA"></a>
+        <a href="index.html#top" class="logo"><img src="assets/web/logo-white.svg" alt="AKIMA"></a>
         <div class="footer-social">
           <a href="https://t.me/+79169120908" target="_blank" rel="noopener" aria-label="Telegram"><img src="assets/web/icon_telegram.png" alt=""></a>
           <a href="https://wa.me/79169120908" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="assets/web/icon_whatsapp.png" alt=""></a>
@@ -183,28 +179,6 @@
     </div>
   </div>
 </footer>
-
-<!-- CART FAB -->
-<button class="fab-cart" data-open-cart>
-  Корзина <span class="cart-count">0</span>
-</button>
-
-<!-- CART DRAWER -->
-<div class="overlay" id="cart-overlay"></div>
-<aside class="cart-drawer" id="cart-drawer">
-  <div class="cart-head">
-    <h3>Ваш заказ</h3>
-    <button class="cart-close" id="cart-close">&times;</button>
-  </div>
-  <div class="cart-items" id="cart-items"></div>
-  <div class="cart-foot">
-    <div class="cart-total"><span>Итого</span><span id="cart-total">0 ₽</span></div>
-    <button class="btn btn-wa" id="checkout-btn">Оформить заказ в WhatsApp</button>
-    <p class="cart-hint">Нажимая «Оформить заказ», вы перейдёте в WhatsApp с готовым сообщением — останется его отправить.</p>
-  </div>
-</aside>
-
-<div class="toast" id="toast"></div>
 
 <script src="script.js"></script>
 </body>
