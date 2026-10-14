@@ -237,7 +237,6 @@ h1,h2,h3{
 .weight-pill.active{background:var(--black);color:#fff;border-color:var(--black);}
 .price-row{display:flex;align-items:baseline;justify-content:space-between;margin-top:auto;}
 .price{font-size:24px;font-weight:800;}
-.price-note{font-size:10px;color:var(--gray);text-transform:uppercase;letter-spacing:.05em;}
 .card-ctas{display:flex;gap:10px;}
 .card-ctas .btn{flex:1;justify-content:center;padding:12px 10px;font-size:11px;}
 
