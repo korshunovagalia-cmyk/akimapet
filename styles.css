@@ -182,7 +182,6 @@ h1,h2,h3{
 
 .recipe-head{margin-top:22px;margin-bottom:0;align-items:flex-start;gap:48px;}
 .recipe-head h2{font-size:clamp(26px,3.4vw,46px);max-width:700px;flex:1 1 560px;}
-.recipe-head p{font-size:17px;line-height:1.65;color:#444;max-width:440px;flex:0 1 420px;}
 
 /* ---------- COMPOSITION ---------- */
 .comp-grid{
