@@ -109,8 +109,9 @@ h1,h2,h3{
   line-height:1.75;
   margin:0 0 28px;
 }
+.hero-lead{font-size:clamp(24px,3vw,38px);margin:0 0 20px;max-width:620px;}
 .hero-desc{
-  max-width:420px;font-size:14px;line-height:1.7;color:#5a5a5a;margin:0 0 34px;
+  max-width:520px;font-size:14px;line-height:1.7;color:#5a5a5a;margin:0 0 34px;
 }
 .hero-ctas{display:flex;gap:14px;margin-top:0;flex-wrap:wrap;justify-content:center;}
 .btn{
