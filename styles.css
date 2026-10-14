@@ -366,7 +366,8 @@ h1,h2,h3{
 .recipe-cta{margin-top:36px;}
 
 /* ---------- INLINE LOGO ---------- */
-.akima-logo{height:1.45em;width:auto;vertical-align:-0.08em;margin:-0.72em 0.03em 0;display:inline-block;}
+.akima-logo{height:1.45em;width:auto;vertical-align:baseline;margin:-0.72em 0.03em 0;display:inline-block;}
 .comp-title{white-space:nowrap;line-height:1.25;}
 .comp-title .akima-logo{margin-top:-0.55em;}
 @media (max-width:620px){.comp-title{white-space:normal;}}
+.reg{font-size:.5em;vertical-align:super;line-height:0;}

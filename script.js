@@ -98,7 +98,7 @@ PRODUCTS.forEach(p => {
 });
 
 function brandText(text) {
-  return text.replace('AKIMA', '<img class="akima-logo" src="' + IMG + 'logo.svg" alt="AKIMA">');
+  return text.replace('AKIMA®', '<img class="akima-logo" src="' + IMG + 'logo.svg" alt="AKIMA"><span class="reg">®</span>');
 }
 
 function priceFor(product, weight) {
