@@ -367,3 +367,6 @@ h1,h2,h3{
 
 /* ---------- INLINE LOGO ---------- */
 .akima-logo{height:1.45em;width:auto;vertical-align:-0.08em;margin:-0.72em 0.03em 0;display:inline-block;}
+.comp-title{white-space:nowrap;line-height:1.25;}
+.comp-title .akima-logo{margin-top:-0.55em;}
+@media (max-width:620px){.comp-title{white-space:normal;}}
