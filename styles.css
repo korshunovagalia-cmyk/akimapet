@@ -327,6 +327,7 @@ h1,h2,h3{
   .header-actions .icon-btn span.label{display:none;}
   .header-actions .icon-btn .btn-icon{display:block;}
   .header-actions .icon-btn{padding:9px 12px;}
+  .hero-tagline{letter-spacing:.18em;font-size:13px;}
 }
 
 .hidden{display:none !important;}
