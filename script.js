@@ -97,6 +97,10 @@ PRODUCTS.forEach(p => {
   state.selectedWeight[p.id] = p.weights[Math.min(1, p.weights.length - 1)];
 });
 
+function brandText(text) {
+  return text.replace('AKIMA', '<img class="akima-logo" src="' + IMG + 'logo.svg" alt="AKIMA">');
+}
+
 function priceFor(product, weight) {
   return PRICE_TABLE[product.priceKey][weight];
 }
@@ -122,7 +126,7 @@ function cardTemplate(p) {
       <img src="${p.images[w]}" alt="${p.title}, ${w} кг" loading="lazy">
     </div>
     <div class="product-body">
-      <h3>${p.title}</h3>
+      <h3>${brandText(p.title)}</h3>
       <div class="product-specs">${p.specs}</div>
       <div class="weight-row" role="group" aria-label="Фасовка">
         ${p.weights.map(wt => `<button class="weight-pill ${wt === w ? 'active' : ''}" data-action="weight" data-weight="${wt}">${wt} кг</button>`).join('')}

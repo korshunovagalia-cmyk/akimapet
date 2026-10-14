@@ -364,3 +364,8 @@ h1,h2,h3{
   .sci-intro{padding-top:110px;}
 }
 .recipe-cta{margin-top:36px;}
+
+/* ---------- INLINE LOGO ---------- */
+.akima-logo{height:1.45em;width:auto;vertical-align:-0.08em;margin:-0.72em 0.03em 0;display:inline-block;}
+h1 .akima-logo,h2 .akima-logo{margin-top:-0.55em;}
+h2:has(.akima-logo){line-height:1.3;}
